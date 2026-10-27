@@ -95,18 +95,6 @@ python test.py \
   --output-dir /path/to/kcat_test_results
 ```
 
-PowerShell:
-
-```powershell
-python test.py `
-  --task kcat `
-  --test-csv "C:\path\to\kcat-random_test.csv" `
-  --ligand-cache "C:\path\to\ligand_dict_cofactor_filtered.pt" `
-  --protein-cache "C:\path\to\protein_dict_esmc6b_multilayer_esm2contact.pt" `
-  --checkpoint "C:\path\to\best_model.pt" `
-  --output-dir "C:\path\to\kcat_test_results"
-```
-
 ## Run Km Evaluation
 
 ```bash
@@ -117,38 +105,6 @@ python test.py \
   --protein-cache /path/to/protein_dict_esmc6b_multilayer_esm2contact.pt \
   --checkpoint /path/to/best_model.pt \
   --output-dir /path/to/km_test_results
-```
-
-PowerShell:
-
-```powershell
-python test.py `
-  --task km `
-  --test-csv "C:\path\to\Km_test.csv" `
-  --ligand-cache "C:\path\to\ligand_dict.pt" `
-  --protein-cache "C:\path\to\protein_dict_esmc6b_multilayer_esm2contact.pt" `
-  --checkpoint "C:\path\to\best_model.pt" `
-  --output-dir "C:\path\to\km_test_results"
-```
-
-## Optional Arguments
-
-| Argument | Default | Description |
-| --- | ---: | --- |
-| `--batch-size` | `32` | Evaluation batch size |
-| `--mc-samples` | `30` | Number of Bayesian prediction samples |
-| `--seed` | `42` | Random seed |
-
-If `--output-dir` is omitted, results are written to:
-
-```text
-test_results/kcat/
-```
-
-or:
-
-```text
-test_results/km/
 ```
 
 ## Output Files
