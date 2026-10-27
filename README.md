@@ -129,3 +129,9 @@ The script performs the following operations:
 8. Saves predictions and summary metrics.
 
 The test set is used only for final evaluation.
+
+
+
+## License
+
+This project is released under the MIT License.
