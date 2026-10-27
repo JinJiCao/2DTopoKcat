@@ -9,26 +9,6 @@ from torch_geometric.utils import degree
 
 
 class DegreeScalerAggregation(Aggregation):
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     def __init__(
         self,
         aggr: Union[str, List[str], Aggregation],
