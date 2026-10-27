@@ -196,25 +196,6 @@ python test.py `
   --output-dir "C:\path\to\km_test_results"
 ```
 
-## Optional Arguments
-
-| Argument | Default | Description |
-| --- | ---: | --- |
-| `--batch-size` | `32` | Evaluation batch size |
-| `--mc-samples` | `30` | Number of Bayesian prediction samples |
-| `--seed` | `42` | Random seed |
-
-If `--output-dir` is omitted, results are written to:
-
-```text
-test_results/kcat/
-```
-
-or:
-
-```text
-test_results/km/
-```
 
 ## Output Files
 
