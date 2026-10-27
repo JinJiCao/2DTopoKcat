@@ -140,21 +140,6 @@ class RoPESelfAttention(torch.nn.Module):
 
 
 class ResidualGatedCrossAttentionBlock(torch.nn.Module):
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     def __init__(self, hidden_dim=200, heads=5, dropout=0.1):
         super().__init__()
         self.hidden_dim = hidden_dim
