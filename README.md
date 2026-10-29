@@ -129,7 +129,7 @@ The kcat test CSV must contain:
 Example:
 
 ```text
-data_examples/kcat/kcat-random_test.csv
+datasets/kcat/kcat-random_test.csv
 ```
 
 ## Km Test Data
@@ -145,7 +145,7 @@ The Km test CSV must contain:
 Example:
 
 ```text
-data_examples/km/km-random_test.csv
+datasets/km/km-random_test.csv
 ```
 
 ## Run kcat Evaluation
